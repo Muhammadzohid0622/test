@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.number {
+    width: 600px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 20px 20px;
+}
+
+.number h1 {
+    transition: 0.3s all ease;
+    font-size: 90px;
+    padding: 15px 40px;
+    border: 5px solid black;
+    border-radius: 25%;
+    box-shadow: 5px 5px 10px #777;
+    background-color: #999;
+}
+
+.number button {
+    font-size: 70px;
+    transition: 0.3s all ease;
+    border-radius: 25%;
+    box-shadow: 5px 5px 10px #777;
+}
+
+.plus {
+    background-color: green;
+    border: 5px solid red;
+    padding: 15px 30px;
+}
+
+.minus {
+    background-color: red;
+    padding: 15px 40px;
+    border: 5px solid green;
+}
+
+.number button:active {
+    transform: scale(0.8);
+}
+
+.number h1:active {
+    transform: scale(0.9);
+}
+
+
