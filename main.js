@@ -22,7 +22,7 @@ function qoshuv() {
     ozgaruvchi += 1
     number.innerHTML = ozgaruvchi
     number.style.color = 'green'
-    number.style.transform = 'translateX(-60px)'
+    number.style.transform = 'scale(1.3)'
     number.style.border = '5px solid green'
     number.style.backgroundColor = 'greenyellow'
 }
@@ -31,7 +31,7 @@ function ayiruv() {
     ozgaruvchi -= 1
     number.innerHTML = ozgaruvchi
     number.style.color = 'red'
-    number.style.transform = 'translateX(60px)'
+    number.style.transform = 'scale(0.7)'
     number.style.border = '5px solid red'
     number.style.backgroundColor = 'rgb(254, 96, 96)'
 }
